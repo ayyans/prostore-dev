@@ -1,0 +1,14 @@
+postgres db server https://vercel.com/ with github
+-install prisma as dev demployment -D
+npx i -D prisma @prisma/client
+-init prisma
+npx prisma init
+-generating
+npx prisma generate
+-creating table in db migrating (init is a custom name by using --name)
+npx prisma migrate dev --name init
+-seeing database with ui
+npx prisma studio
+-running a seed script ts
+npx ts ./path to folder to file name without extension ts
+npx ts ./db/seed
